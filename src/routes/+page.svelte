@@ -10,12 +10,12 @@
 	</Block>
 	<BlockTitle>Navigation</BlockTitle>
 	<List>
-		<ListItem href="/about/" title="About" />
-		<ListItem href="/form/" title="Form" />
+		<ListItem title="About" />
+		<ListItem title="Form" />
 	</List>
 
 	<Block strong class="flex space-x-4">
-		<Button href="/scan">Button 1</Button>
-		<Button href="/history">Button 2</Button>
+		<Button href="/scan">Scan now</Button>
+		<Button href="/history">YOur history</Button>
 	</Block>
 </Page>

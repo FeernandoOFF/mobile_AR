@@ -38,6 +38,8 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@webarkit/ar-nft": "^0.14.5",
+		"aframe": "^1.4.2",
 		"konsta": "^3.0.1"
 	}
 }
