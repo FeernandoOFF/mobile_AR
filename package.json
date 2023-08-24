@@ -40,6 +40,7 @@
 	"dependencies": {
 		"@webarkit/ar-nft": "^0.14.5",
 		"aframe": "^1.4.2",
+		"iconify-icon": "^1.0.8",
 		"konsta": "^3.0.1"
 	}
 }
