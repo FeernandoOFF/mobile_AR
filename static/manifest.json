@@ -21,5 +21,20 @@
   "background_color": "#3367D6",
   "theme_color": "#0000FF",
   "start_url": "/",
-  "display": "standalone"
+  "id": "/",
+  "display": "standalone",
+  "shortcuts": [
+    {
+      "name": "Check your medicines",
+      "short_name": "Scan",
+      "description": "Scan your medicine",
+      "url": "/scan",
+      "icons": [
+        {
+          "src": "/logos/logo.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+  ]
 }
