@@ -4,13 +4,15 @@
 	import { App } from 'konsta/svelte';
 	import { onMount } from 'svelte';
 	export let data;
-	let os: 'ios' | 'material';
+	let os: 'ios' | 'material' | 'parent';
 
 	onMount(() => {
-		if (/iPad|iPhone|iPod/.test(navigator.userAgent)) {
+		if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
 			os = 'ios';
-		} else {
+		} else if (/android/i.test(navigator.userAgent)) {
 			os = 'material';
+		} else {
+			os = 'parent';
 		}
 	});
 </script>
