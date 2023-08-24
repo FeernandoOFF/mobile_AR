@@ -7,12 +7,10 @@
 	let os: 'ios' | 'material' | 'parent';
 
 	onMount(() => {
-		if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
+		if (/(Mac|iPhone|iPod|iPad)/i.test(navigator.userAgent) && !window.MSStream) {
 			os = 'ios';
-		} else if (/android/i.test(navigator.userAgent)) {
-			os = 'material';
 		} else {
-			os = 'parent';
+			os = 'material';
 		}
 	});
 </script>
