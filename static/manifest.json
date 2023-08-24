@@ -1,0 +1,24 @@
+{
+  "short_name": "Check UR Med",
+  "name": "Check your medicines",
+  "icons": [
+    {
+      "src": "/logos/logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/logos/logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/logos/logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "background_color": "#3367D6",
+  "start_url": "/",
+  "theme_color": "#8367D6"
+}
