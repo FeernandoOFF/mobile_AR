@@ -5,17 +5,14 @@
 <Page>
 	<Navbar title="My App" />
 
-	<Block strong>
-		<p>Here is your SvelteKit & Konsta UI app. Let's see what we have here.</p>
+	<Block class="text-center ">
+		<p class="text-red-500 dark:text-blue-600">
+			This is text is red in white mode and blue in dark
+		</p>
 	</Block>
 	<BlockTitle>Navigation</BlockTitle>
 	<List>
-		<ListItem title="About" />
-		<ListItem title="Form" />
+		<ListItem title="Scan now" href="/scan" />
+		<ListItem title="History" href="/history" />
 	</List>
-
-	<Block strong class="flex space-x-4">
-		<Button href="/scan">Scan now</Button>
-		<Button href="/history">YOur history</Button>
-	</Block>
 </Page>

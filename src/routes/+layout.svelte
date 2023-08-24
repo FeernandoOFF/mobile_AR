@@ -4,13 +4,16 @@
 	import { App } from 'konsta/svelte';
 	import { onMount } from 'svelte';
 	export let data;
-	let os: 'ios' | 'material' | 'parent';
+	let os: 'ios' | 'material' | 'parent' = 'ios';
 
 	onMount(() => {
+		console.log(navigator.userAgent);
 		if (/(Mac|iPhone|iPod|iPad)/i.test(navigator.userAgent) && !window.MSStream) {
 			os = 'ios';
+			console.log('mac');
 		} else {
 			os = 'material';
+			console.log('other');
 		}
 	});
 </script>

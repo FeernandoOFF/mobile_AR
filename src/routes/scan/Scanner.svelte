@@ -21,7 +21,7 @@
 			<p class="text-4xl font-semibold">Loading...</p>
 		</div>
 	{:then aframe}
-		<main>
+		<main class="">
 			<div class="controls">
 				<label>
 					<input type="color" bind:value={box} />
