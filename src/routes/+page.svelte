@@ -16,6 +16,6 @@
 
 	<Block strong class="flex space-x-4">
 		<Button href="/scan">Button 1</Button>
-		<Button>Button 2</Button>
+		<Button href="/history">Button 2</Button>
 	</Block>
 </Page>
